@@ -6,6 +6,8 @@ Les installations à faire sont donc LocalStack + la bibliothèque boto3, qui es
 
 Pour simplifier ces installations, on utilisera Docker. Suivez les instructions ci-dessous pour installer Docker puis pour démarrer l'environnement Docker. À la fin on devrait pouvoir exécuter le code app/testS3.py, qui exporte un fichier sur AWS S3 (donc ici, sur LocalStack).
 
+(*edit: si vous voulez tenter l'installation de LocalStack manuellement, sans passer par ce tutoriel, alors il faudra changer l'endpoint LocalStack dans votre code testS3.py : "http://localstack:4566" -> "http://localhost:4566"*)
+
 
 ## Installation
 
