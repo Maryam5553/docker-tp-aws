@@ -1,2 +1,4 @@
 # librarie AWS en Python
 boto3
+# librarie pour effectuer des opérations cryptographiques
+cryptography
